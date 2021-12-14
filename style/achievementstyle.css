@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+main {
+    background-color: rgb(10, 10, 10);
+    border: 5px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: orangered;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1.ar {
+    color: rgb(138, 138, 138);
+}
+
+p {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+body > a {
+    max-width: 400px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #3EB9DB;
+    padding: 7px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+body > a:hover {
+    background-color: blue;
+    color: beige;
+}

@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --linkbgcolor: rgb(142, 226, 245);
-    --linkcolor: rgb(255, 111, 0);
+    --linkbgcolor: rgb(29, 202, 86);
+    --linkcolor: rgb(0, 79, 10);
 }
 
 * {
