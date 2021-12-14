@@ -42,6 +42,7 @@ main {
     background-image: linear-gradient(to bottom, rgb(0, 255, 106), rgb(6, 197, 70));
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.282);
 }
 
 div {
@@ -78,9 +79,8 @@ article p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 1.2em;
 }
-
-
 
 p#alert {
     color: red;
